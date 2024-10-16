@@ -1,0 +1,8 @@
+body {
+    font-family: sans-serif;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+}
