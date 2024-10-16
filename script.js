@@ -16,13 +16,13 @@ calcularButton.addEventListener('click', () => {
     let classificacao = '';
 
     if (imc < 18.5) {
-        classificacao = 'Abaixo do peso';
+        classificacao = 'Atencao! Abaixo do peso! Comece comendo um McDoland's';
     } else if (imc < 25) {
-        classificacao = 'Peso normal';
+        classificacao = 'Eba! tudo ok. Peso normal! Gostoso';
     } else if (imc < 30) {
-        classificacao = 'Sobrepeso';
+        classificacao = 'Atencão! voce está em Sobrepeso, caralho';
     } else {
-        classificacao = 'Obesidade';
+        classificacao = 'PQP mas tu ta bem grande hein, chama: Obesidade!! fecha a boca porra';
     }
 
     resultadoDiv.textContent = `Seu IMC é: ${imc.toFixed(2)}. Classificação: ${classificacao}`;
